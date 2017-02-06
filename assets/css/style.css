@@ -6,6 +6,8 @@ body
 img
 {
 	width: 100%;
+	
+
 }
 footer
 {
@@ -23,7 +25,8 @@ footer
 
 .aboutMe
 {
-	margin-top: 5%;
+	margin-top: 8%;
+	margin-left: 8%;
 }
 
 .portfolio
@@ -36,8 +39,8 @@ footer
 
 .imageLabel
 {
-	background-color: blue;
-	color: white;
+	background-color: black;
+	color: #52e81b;
 	position: absolute;
 	text-align: center;
 	bottom: 2%;
@@ -56,3 +59,4 @@ footer
 	right: 3%;
 	top: 24%;
 }
+
