@@ -11,22 +11,48 @@ img
 }
 footer
 {
+
+}
+
+.name
+{
+	background-color: #4aaaa5;
+	margin-top: 10%;
+	height: 49px;
+}
+
+.otherFooter
+{
 	clear: both;
 	background-color: #666666;
 	border-top: 12px solid #4aaaa5;
 	text-align: center;
 	padding: 3%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	width: 100%;
 	color: #ffffff;
+	margin-top: 3%;
+	position: absolute;
+	bottom: 0;
 }
 
+.portFooter
+{
+	clear: both;
+	background-color: #666666;
+	border-top: 12px solid #4aaaa5;
+	text-align: center;
+	padding: 3%;
+	width: 100%;
+	color: #ffffff;
+	margin-top: 3%;
+}
 .aboutMe
 {
 	margin-top: 8%;
 	margin-left: 8%;
+	width: 50%;
+	background-color: #ffffff;
+
 }
 
 .portfolio
@@ -37,15 +63,24 @@ footer
 	width: 50%;
 }
 
+.contact
+{
+	margin-top: 8%;
+	margin-left: 8%;
+	background-color: #ffffff;
+	width: 50%;
+}
+
 .imageLabel
 {
-	background-color: black;
-	color: #52e81b;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 16px;
 	position: absolute;
 	text-align: center;
 	bottom: 2%;
-    left: 36%;
-    width: 50%;
+    left: 16px;
+    width: 91%;
 }
 
 .imageHolder
@@ -60,3 +95,42 @@ footer
 	top: 24%;
 }
 
+.input-group-lg>.form-control.message
+{
+	width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.submitBtn
+{
+	margin-bottom: 3%;
+}
+
+.btn-default
+{
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+.fontFormat
+{
+	color: #777777;
+}
+
+.containerTitle
+{
+	color: #4aaaa5;
+	margin-bottom: 12%;
+}
+
+.panel-title
+{
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 20px;
+}
+
+.navbar-right
+{
+	padding: 2%;
+}
